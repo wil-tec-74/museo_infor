@@ -1,0 +1,136 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    background-color: #082338;
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #011d32;
+    z-index: 1000;
+    padding: 1rem 0;
+    box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.5);
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar ul li {
+    margin: 0 15px;
+}
+
+.navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 8px 15px;
+    transition: background-color 0.3s ease;
+}
+
+.navbar ul li a:hover {
+    background-color: #014763;
+    border-radius: 5px;
+}
+
+.section {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    padding: 0 2rem;
+    text-align: center;
+    padding-top: 80px; /* Espacio para el navbar */
+}
+
+#inicio {
+    background-image: url('ini.jpg');
+}
+
+#antiguas {
+    background-image: url('anti.jpg');
+}
+
+#cien {
+    background-image: url('1980.jpg');
+}
+
+#modernas {
+    background-image: url('mo.jpg');
+}
+
+#futuro {
+    background-image: url('cun.jpg');
+}
+
+#contacto {
+    background-color: #011d32;
+    padding: 5rem 2rem;
+    text-align: center;
+    background-image: none; /* Fondo liso para la sección de contacto */
+}
+
+.content {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 2rem;
+    border-radius: 10px;
+    max-width: 800px;
+}
+
+.content h1, .content h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.content p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+.content ul {
+    padding-left: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.content ul li {
+    list-style: none;
+}
+
+.list-item-box {
+    background-color: rgba(255, 255, 255, 0.7);
+    color: #000;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+}
+
+.footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #011d32;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -2px 2px -2px rgba(0, 0, 0, 0.5);
+}
+
+.footer p {
+    margin: 0;
+    font-size: 1rem;
+}
