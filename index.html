@@ -8,8 +8,19 @@
 </head>
 <body>
     <!-- Menú de Navegación -->
+
+    <!-- Menú de Navegación -->
     <nav class="navbar">
-        <ul>
+        <div class="logo-title">
+            <img src="infor.png" alt="Logo Infor" id="logo">
+            <h1 class="title">Ingeniería Informática</h1>
+        </div>
+        <div class="menu-icon" onclick="toggleMenu()">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+        <ul class="nav-links">
             <li><a href="#inicio">Inicio</a></li>
             <li><a href="#antiguas">Computadoras Antiguas</a></li>
             <li><a href="#cien">Década de 1980</a></li>
@@ -90,9 +101,31 @@
         </section>
     
         <!-- Pie de Página -->
-        <footer class="footer">
+     <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Contacto</h3>
+                <p>Email: grupo3@gmail.com</p>
+                <p>Teléfono: +591</p>
+            </div>
+            <div class="footer-section">
+                <h3>Redes Sociales</h3>
+                <a href="#" class="social-icon">Facebook</a>
+                <a href="#" class="social-icon">Twitter</a>
+                <a href="#" class="social-icon">Instagram</a>
+            </div>
+            <div class="footer-section">
+                <h3>Dirección</h3>
+                <p>Carrera Ing. Informática, laboratorio de HARDWARE</p>
+                
+            </div>
+        </div>
+        <div class="footer-bottom">
             <p>&copy; 2024 Museo de Computadoras. Todos los derechos reservados.</p>
-        </footer>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
     </body>
     </html>
     
